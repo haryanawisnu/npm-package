@@ -62,7 +62,7 @@ module.exports = {
     return str;
   },
   formattime2(date) {
-    let str = this.jam(date) + ':' + this.menit(date); //11:06:20
+    let str = this.jam(date) + ':' + this.menit(date); //11:06
     return str;
   },
   formatfull1(date) {
