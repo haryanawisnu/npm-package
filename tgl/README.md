@@ -41,9 +41,14 @@ gunakan function yang ada di 'List'
 
 ```sh
 tgl.hari(new Date)  //hasil : Kamis
+
+atau
+
+tgl.hari(new Date('2017-05-17T04:50:01.260Z'))
+
 ```
 
-`NOTE!!` khusus untuk function kapan(), parameternya diisi date berupa STRING. contoh :
+`NOTE!!` khusus untuk function kapan(), parameternya diisi harus berupa STRING. contoh :
 
 ```sh
 tgl.kapan(new Date('2017-05-17T04:50:01.260Z'))  //hasil : 59 menit lalu
